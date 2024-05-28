@@ -49,10 +49,10 @@ public class CheckDigit
     */    
     public static int getDigit(int num, int n)    
     {      
-      int pos = getNumberOfDigits(num)-n+1;
-      while(pos > 1){
+      int lebron = getNumberOfDigits(num)-n+1;
+      while(lebron > 1){
         num/=10;
-        pos--;
+        lebron--;
       }
       return num%10;
     }     
